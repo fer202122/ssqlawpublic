@@ -188,14 +188,14 @@ Henri Werij, Faculty of Aerospace Engineering, Technische Universiteit Delft.
 
 ## References  
 
-- [Enhancement of the Solar Sailing Q-Law for Active Debris Removal](https://doi.org/10.4121/5a338f9d-1692-4b39-90c5-3cc3996d917e) 
+- [Enhancement of the Solar Sailing Q-Law for Active Debris Removal](BLA) 
 - [Solar Sailing Q-Law for Planetocentric, Many-Revolution Sail Orbit Transfers](https://doi.org/10.2514/1.G007103)   
 
 ---
 
 ## Cite this repository
 
-**How to cite this repository:** F. Gámez Losada, K. Oguri, 2026, Code for Enhancement of the Solar Sailing Q-Law for Active Debris Removal. 4TU.ResearchData. Software. [BLA](BLA)
+**How to cite this repository:** F. Gámez Losada, K. Oguri, 2026, Code for Enhancement of the Solar Sailing Q-Law for Active Debris Removal. 4TU.ResearchData. Software. [https://doi.org/10.4121/5a338f9d-1692-4b39-90c5-3cc3996d917e](https://doi.org/10.4121/5a338f9d-1692-4b39-90c5-3cc3996d917e)
 
 ---
 
