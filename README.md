@@ -1,10 +1,10 @@
 # Code for Enhancement of the Solar Sailing Q-Law for Active Debris Removal
 
-The repository contains the code used to obtain the results of the paper titled * *Enhancement of the Solar Sailing Q-Law for Active Debris Removal* * (see references).
+The repository contains the code used to obtain the results of the paper titled *Enhancement of the Solar Sailing Q-Law for Active Debris Removal* (see references).
 
 The implemented framework allows the user to compute locally optimal circular-to-circular (C2C) solar-sail transfers around the Earth. The equations of motion (EOMs) are formulated in modified equinoctial elements (MEEs) to avoid singularities for near-zero eccentricity. The motion of the sailcraft is modeled using the perturbed two-body problem, where the considered perturbing accelerations are: 1) the oblateness of the Earth (J2 term of the geopotential), 2) the solar-sail acceleration (optical flat plate model), and 3) eclipses (cylindrical model).
 
-The optimal control input is obtained by minimizing the time derivative of the so-called * *proximity quotient* * function Q. In this code, the original definition of Q is modified to remove the singularity that arises as the eccentricity control tends to zero, thereby improving convergence when the sun-orbit geometry is unfavorable.
+The optimal control input is obtained by minimizing the time derivative of the so-called *proximity quotient* function Q. In this code, the original definition of Q is modified to remove the singularity that arises as the eccentricity control tends to zero, thereby improving convergence when the sun-orbit geometry is unfavorable.
 
 The script `main.m` contains an example solar-sail C2C transfer that departs from an 800 km dawn-dusk sun-synchronous orbit and increases the orbital radius by 100 km. The script `SetTransferProb.m` defines the transfer parameters, while `mainPlot.m` produces six plots showing the control and evolution of the relevant parameters.
 
@@ -53,13 +53,13 @@ matlab main.m
 ## Example
 
 Run `main.m` after install. The script:
-* reads the transfer parameters from `SetTransferProb.m`;   
-* obtains the average eccentricity of the target orbit;     
-* displays the settings of the current run;
-* computes the transfer by propagating the chaser;
-* computes auxiliary quantities for plotting;
-* tests the results by comparying against hardcoded values in `tests.m`;
-* generates 6 figures by executing `mainPlot.m`:
+* Reads the transfer parameters from `SetTransferProb.m`;   
+* Obtains the average eccentricity of the target orbit;     
+* Displays the settings of the current run;
+* Computes the transfer by propagating the chaser;
+* Computes auxiliary quantities for plotting;
+* Tests the results by comparying against hardcoded values in `tests.m`;
+* Generates 6 figures by executing `mainPlot.m`:
     - Figure 1: Three-dimensional trajectory in the Sun frame (S);  
     - Figure 2: Evolution of the components of the primer unit vector in the Local frame (L);      
     - Figure 3: Evolution of the average/osculating eccentricity, aspect angle, and delta semi-major axis;
@@ -188,7 +188,7 @@ Henri Werij, Faculty of Aerospace Engineering, Technische Universiteit Delft.
 
 ## References  
 
-- [Enhancement of the Solar Sailing Q-Law for Active Debris Removal](BLA) 
+- [Enhancement of the Solar Sailing Q-Law for Active Debris Removal](https://doi.org/10.4121/5a338f9d-1692-4b39-90c5-3cc3996d917e) 
 - [Solar Sailing Q-Law for Planetocentric, Many-Revolution Sail Orbit Transfers](https://doi.org/10.2514/1.G007103)   
 
 ---
